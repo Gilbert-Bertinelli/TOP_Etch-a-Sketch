@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "allowJs": true,                  ;; Erlaubt .js-Dateien im Projekt
+    "checkJs": false,                 ;; Deaktiviert strenge Typprüfung für .js (optional: true für Migration zu TypeScript)
+    "maxNodeModuleJsDepth": 10        ;; Tiefe der node_modules-Analyse (optional)
+  },
+  "exclude": ["node_modules"]
+}
