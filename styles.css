@@ -1,11 +1,6 @@
-:root{
-    --square-length: calc(600px / 16);
-    --square-color: red;
-}
 body{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     background-color: darkgray;
     height: 100vh;
@@ -15,6 +10,10 @@ body{
     height: 60px;
 }
 
+#menu{
+    margin:0 0 20px;
+}
+
 #container{
     display: flex;
     flex-direction: row;
@@ -22,11 +21,10 @@ body{
     height:600px;
     width:600px;
     padding:0;
-    border: 2px solid yellow;
+    border: 2px solid black;
 }
 
 .square{
-    /* flex: 0 0 calc(960px / 4); */
     flex: 0 0 var(--square-length);
     box-sizing: border-box;
     width: var(--square-length);
@@ -34,7 +32,3 @@ body{
     border: 1px solid black;
 }
 
-.marked{
-    background-color: var(--square-color);
-    /* opacity: 0.1; */
-}
